@@ -9,6 +9,6 @@ public class CiCdController {
 	
 	@GetMapping("/welcome")
 	public String getMessage() {
-		return "Welcome";
+		return "Welcome All";
 	}
 }
